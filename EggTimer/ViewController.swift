@@ -48,7 +48,7 @@ class ViewController: UIViewController {
 
 
        @objc func updateTimer() {
-           if secondsPassed > totalTime {
+           if secondsPassed < totalTime {
             secondsPassed += 1
             progressBar.progress =  Float(secondsPassed) / Float(totalTime)
             print(Float(secondsPassed) / Float(totalTime))
