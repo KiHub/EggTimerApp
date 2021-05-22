@@ -11,7 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-    let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]
+    let eggTimes = ["Soft": 300, "Medium": 400, "Hard": 700]
     
    //var secondsRemaining = 60
     
