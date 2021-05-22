@@ -56,6 +56,7 @@ class ViewController: UIViewController {
            } else {
             timer.invalidate()
             titleLabel.text = "Done"
+            print("Sound")
            }
         
    
